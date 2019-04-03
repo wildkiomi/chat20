@@ -1,0 +1,55 @@
+2019-04-03 08:33:05 INFO  Server:28 - инициализация arraylist
+2019-04-03 08:33:28 INFO  UsersStreams:39 - parsing
+2019-04-03 08:33:28 INFO  Register:19 - registration of  hanna
+2019-04-03 08:33:28 INFO  UsersStreams:39 - parsing
+2019-04-03 08:33:28 INFO  Message:8 - message
+2019-04-03 08:33:38 INFO  UsersStreams:39 - parsing
+2019-04-03 08:33:38 INFO  Register:19 - registration of  coop
+2019-04-03 08:33:38 INFO  UsersStreams:73 - connect hanna coop
+2019-04-03 08:33:38 INFO  Message:8 - message
+2019-04-03 08:33:43 INFO  UsersStreams:39 - parsing
+2019-04-03 08:33:43 INFO  Message:8 - message
+2019-04-03 08:33:45 INFO  UsersStreams:39 - parsing
+2019-04-03 08:33:45 INFO  Message:8 - message
+2019-04-03 08:48:45 INFO  Server:28 - инициализация arraylist
+2019-04-03 08:49:12 INFO  UsersStreams:39 - parsing
+2019-04-03 08:49:12 INFO  Register:19 - registration of  hanna
+2019-04-03 08:49:13 INFO  UsersStreams:39 - parsing
+2019-04-03 08:49:13 INFO  Message:8 - message
+2019-04-03 08:49:24 INFO  UsersStreams:39 - parsing
+2019-04-03 08:49:24 INFO  Register:19 - registration of  bob
+2019-04-03 08:49:24 INFO  UsersStreams:73 - connect hanna bob
+2019-04-03 08:49:24 INFO  Message:8 - message
+2019-04-03 08:49:32 INFO  UsersStreams:39 - parsing
+2019-04-03 08:49:32 INFO  Message:8 - message
+2019-04-03 08:49:34 INFO  UsersStreams:39 - parsing
+2019-04-03 08:49:34 INFO  Message:8 - message
+2019-04-03 08:52:39 INFO  Server:27 - инициализация arraylist
+2019-04-03 08:52:56 INFO  UsersStreams:39 - parsing
+2019-04-03 08:52:56 INFO  Register:19 - registration of  hanna
+2019-04-03 08:52:56 INFO  UsersStreams:39 - parsing
+2019-04-03 08:52:56 INFO  Message:8 - message
+2019-04-03 08:52:56 INFO  Message:25 - message from hanna
+2019-04-03 08:52:56 ERROR Message:27 - can't send message
+2019-04-03 08:53:06 INFO  UsersStreams:39 - parsing
+2019-04-03 08:53:06 INFO  Register:19 - registration of  coop
+2019-04-03 08:53:06 INFO  UsersStreams:73 - connect hanna coop
+2019-04-03 08:53:06 INFO  Message:8 - message
+2019-04-03 08:53:06 INFO  Message:25 - message from coop
+2019-04-03 08:53:06 ERROR Message:27 - can't send message
+2019-04-03 08:53:12 INFO  UsersStreams:39 - parsing
+2019-04-03 08:53:12 INFO  Message:8 - message
+2019-04-03 08:53:12 INFO  Message:25 - message from hanna
+2019-04-03 08:53:12 ERROR Message:27 - can't send message
+2019-04-03 08:53:14 INFO  UsersStreams:39 - parsing
+2019-04-03 08:53:14 INFO  Message:8 - message
+2019-04-03 08:53:14 INFO  Message:25 - message from coop
+2019-04-03 08:53:14 ERROR Message:27 - can't send message
+2019-04-03 08:53:20 INFO  UsersStreams:39 - parsing
+2019-04-03 08:53:20 INFO  Message:8 - message
+2019-04-03 08:53:20 INFO  Message:25 - message from hanna
+2019-04-03 08:53:20 ERROR Message:27 - can't send message
+2019-04-03 08:53:23 INFO  UsersStreams:39 - parsing
+2019-04-03 08:53:23 INFO  Message:8 - message
+2019-04-03 08:53:23 INFO  Message:25 - message from coop
+2019-04-03 08:53:23 ERROR Message:27 - can't send message

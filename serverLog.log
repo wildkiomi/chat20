@@ -1,0 +1,126 @@
+2019-04-03 08:18:05 INFO  Server:28 - инициализация arraylist
+2019-04-03 08:18:38 INFO  UsersStreams:39 - parsing
+2019-04-03 08:18:38 INFO  Register:19 - registration of  hanna
+2019-04-03 08:18:39 INFO  UsersStreams:39 - parsing
+2019-04-03 08:18:39 INFO  Message:8 - message
+2019-04-03 08:18:54 INFO  UsersStreams:39 - parsing
+2019-04-03 08:18:54 INFO  Register:19 - registration of  coop
+2019-04-03 08:18:54 INFO  UsersStreams:73 - connect hanna coop
+2019-04-03 08:18:54 INFO  Message:8 - message
+2019-04-03 08:19:00 INFO  UsersStreams:39 - parsing
+2019-04-03 08:19:00 INFO  Message:8 - message
+2019-04-03 08:19:04 INFO  UsersStreams:39 - parsing
+2019-04-03 08:19:04 INFO  Message:8 - message
+2019-04-03 08:25:46 INFO  Server:28 - инициализация arraylist
+2019-04-03 08:26:07 INFO  UsersStreams:39 - parsing
+2019-04-03 08:26:07 INFO  Register:19 - registration of  hanna
+2019-04-03 08:26:07 INFO  UsersStreams:39 - parsing
+2019-04-03 08:26:07 INFO  Message:8 - message
+2019-04-03 08:26:16 INFO  UsersStreams:39 - parsing
+2019-04-03 08:26:16 INFO  Register:19 - registration of  coop
+2019-04-03 08:26:16 INFO  UsersStreams:73 - connect hanna coop
+2019-04-03 08:26:16 INFO  Message:8 - message
+2019-04-03 08:26:22 INFO  UsersStreams:39 - parsing
+2019-04-03 08:26:22 INFO  Message:8 - message
+2019-04-03 08:26:24 INFO  UsersStreams:39 - parsing
+2019-04-03 08:26:24 INFO  Message:8 - message
+2019-04-03 08:27:24 INFO  Server:28 - инициализация arraylist
+2019-04-03 08:27:42 INFO  UsersStreams:39 - parsing
+2019-04-03 08:27:42 INFO  Register:19 - registration of  hanna
+2019-04-03 08:27:43 INFO  UsersStreams:39 - parsing
+2019-04-03 08:27:43 INFO  Message:8 - message
+2019-04-03 08:27:52 INFO  UsersStreams:39 - parsing
+2019-04-03 08:27:52 INFO  Register:19 - registration of  coop
+2019-04-03 08:27:52 INFO  UsersStreams:73 - connect hanna coop
+2019-04-03 08:27:52 INFO  Message:8 - message
+2019-04-03 08:27:58 INFO  UsersStreams:39 - parsing
+2019-04-03 08:27:58 INFO  Message:8 - message
+2019-04-03 08:57:24 INFO  Server:27 - инициализация arraylist
+2019-04-03 08:57:47 INFO  UsersStreams:39 - parsing
+2019-04-03 08:57:47 INFO  Register:19 - registration of  hanna
+2019-04-03 08:57:56 INFO  UsersStreams:39 - parsing
+2019-04-03 08:57:56 INFO  Register:19 - registration of  coop
+2019-04-03 08:57:56 INFO  UsersStreams:73 - connect hanna coop
+2019-04-03 08:57:56 INFO  Message:8 - message
+2019-04-03 08:57:56 INFO  Message:25 - message from coop
+2019-04-03 08:57:56 INFO  Message:25 - message from coop
+2019-04-03 08:58:00 INFO  UsersStreams:39 - parsing
+2019-04-03 08:58:00 INFO  Message:8 - message
+2019-04-03 08:58:00 INFO  Message:25 - message from coop
+2019-04-03 08:58:00 INFO  Message:25 - message from coop
+2019-04-03 08:58:03 INFO  UsersStreams:39 - parsing
+2019-04-03 08:58:03 INFO  Message:8 - message
+2019-04-03 08:58:03 INFO  Message:25 - message from hanna
+2019-04-03 08:58:03 INFO  Message:25 - message from hanna
+2019-04-03 08:58:09 INFO  UsersStreams:39 - parsing
+2019-04-03 08:58:09 INFO  Leave:9 - disconnect
+2019-04-03 08:58:09 INFO  Message:8 - message
+2019-04-03 08:58:09 INFO  Message:25 - message from coop
+2019-04-03 08:58:09 INFO  Message:25 - message from coop
+2019-04-03 08:58:09 INFO  UsersStreams:73 - connect hanna coop
+2019-04-03 08:58:09 INFO  Message:8 - message
+2019-04-03 08:58:09 INFO  Message:25 - message from coop
+2019-04-03 08:58:09 ERROR Message:27 - can't send message
+2019-04-03 08:58:23 INFO  UsersStreams:39 - parsing
+2019-04-03 08:58:23 INFO  Message:8 - message
+2019-04-03 08:58:23 INFO  Message:25 - message from coop
+2019-04-03 08:58:23 ERROR Message:27 - can't send message
+2019-04-03 08:58:28 INFO  UsersStreams:39 - parsing
+2019-04-03 08:58:28 INFO  Message:8 - message
+2019-04-03 08:58:28 INFO  Message:25 - message from hanna
+2019-04-03 08:58:28 ERROR Message:27 - can't send message
+2019-04-03 08:58:33 INFO  UsersStreams:39 - parsing
+2019-04-03 08:58:33 INFO  Message:8 - message
+2019-04-03 08:58:33 INFO  Message:25 - message from coop
+2019-04-03 08:58:33 ERROR Message:27 - can't send message
+2019-04-03 08:58:39 INFO  UsersStreams:39 - parsing
+2019-04-03 08:58:39 INFO  Message:8 - message
+2019-04-03 08:58:39 INFO  Message:25 - message from hanna
+2019-04-03 08:58:39 ERROR Message:27 - can't send message
+2019-04-03 08:58:48 INFO  UsersStreams:39 - parsing
+2019-04-03 08:58:48 INFO  Exit:12 - client socket closed
+2019-04-03 08:58:48 INFO  Message:8 - message
+2019-04-03 08:58:48 INFO  Message:25 - message from hanna
+2019-04-03 08:58:48 ERROR Message:27 - can't send message
+2019-04-03 09:00:49 INFO  Server:27 - инициализация arraylist
+2019-04-03 09:01:06 INFO  UsersStreams:39 - parsing
+2019-04-03 09:01:06 INFO  Register:19 - registration of  hanna
+2019-04-03 09:01:15 INFO  UsersStreams:39 - parsing
+2019-04-03 09:01:15 INFO  Register:19 - registration of  coop
+2019-04-03 09:01:15 INFO  UsersStreams:73 - connect hanna coop
+2019-04-03 09:01:15 INFO  Message:8 - message
+2019-04-03 09:01:15 INFO  Message:25 - message from coop
+2019-04-03 09:01:15 INFO  Message:25 - message from coop
+2019-04-03 09:01:20 INFO  UsersStreams:39 - parsing
+2019-04-03 09:01:20 INFO  Message:8 - message
+2019-04-03 09:01:20 INFO  Message:25 - message from hanna
+2019-04-03 09:01:20 INFO  Message:25 - message from hanna
+2019-04-03 09:01:24 INFO  UsersStreams:39 - parsing
+2019-04-03 09:01:24 INFO  Message:8 - message
+2019-04-03 09:01:24 INFO  Message:25 - message from coop
+2019-04-03 09:01:24 INFO  Message:25 - message from coop
+2019-04-03 09:01:44 INFO  UsersStreams:39 - parsing
+2019-04-03 09:01:44 INFO  Register:19 - registration of  momo
+2019-04-03 09:01:45 INFO  UsersStreams:39 - parsing
+2019-04-03 09:01:45 INFO  Message:8 - message
+2019-04-03 09:01:54 INFO  UsersStreams:39 - parsing
+2019-04-03 09:01:54 INFO  Register:19 - registration of  cop
+2019-04-03 09:01:54 INFO  UsersStreams:73 - connect hanna cop
+2019-04-03 09:01:54 INFO  Message:8 - message
+2019-04-03 09:01:54 INFO  Message:25 - message from cop
+2019-04-03 09:01:54 INFO  Message:25 - message from cop
+2019-04-03 09:02:02 INFO  UsersStreams:39 - parsing
+2019-04-03 09:02:02 INFO  Message:8 - message
+2019-04-03 09:02:16 INFO  Server:27 - инициализация arraylist
+2019-04-03 09:02:34 INFO  UsersStreams:39 - parsing
+2019-04-03 09:02:34 INFO  Register:19 - registration of  hanna
+2019-04-03 09:02:34 INFO  UsersStreams:39 - parsing
+2019-04-03 09:02:34 INFO  Message:8 - message
+2019-04-03 09:02:43 INFO  UsersStreams:39 - parsing
+2019-04-03 09:02:43 INFO  Register:19 - registration of  cop
+2019-04-03 09:02:43 INFO  UsersStreams:73 - connect hanna cop
+2019-04-03 09:02:43 INFO  Message:8 - message
+2019-04-03 09:02:48 INFO  UsersStreams:39 - parsing
+2019-04-03 09:02:48 INFO  Message:8 - message
+2019-04-03 09:02:51 INFO  UsersStreams:39 - parsing
+2019-04-03 09:02:51 INFO  Message:8 - message
