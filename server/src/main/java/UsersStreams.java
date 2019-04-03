@@ -39,10 +39,10 @@ public class UsersStreams implements Runnable{
             log.info("parsing");
                 if (s.contains(" ")) s=s.substring(0,s.indexOf(" "));
                 user=Server.map.get(s).execute(user,inputMessage);
-                connecting();
+                if (!s.equals("/message")) connecting();
         }
 
-        public void connecting() {
+        public synchronized void connecting() {
             boolean connection = false;
             if (user instanceof Client){
                 for (int i = 0; i < Server.chats.size(); i++) {
@@ -55,7 +55,7 @@ public class UsersStreams implements Runnable{
                         break;
                     }
                 }
-                if (connection==false){
+                if (!connection){
                     User[] chat = new User[2];
                     chat[0] = user;
                     Server.chats.add(chat);

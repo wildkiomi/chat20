@@ -1,3 +1,2 @@
-public class Agent extends User{
-
+public class Agent extends User {
 }

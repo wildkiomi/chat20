@@ -19,7 +19,6 @@ public class Register implements ICommand{
         log.info("registration of  "+user.getName());
 
         return user;
-        }
-
+    }
 
 }

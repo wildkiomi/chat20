@@ -6,7 +6,6 @@ public class Leave implements ICommand{
 
     public User execute(User user, String s) {
 
-        log.info("disconnect");
         new Message().execute(user,"disconnect");
         if (user instanceof Agent) {
             Server.freeAgents.add(user);
@@ -17,6 +16,7 @@ public class Leave implements ICommand{
             User[] newChat = {null,Server.chats.get(user.getNumberOfChat())[1]};
             Server.chats.set(user.getNumberOfChat(), newChat);
         }
+        log.info("disconnect");
 
         return user;
     }

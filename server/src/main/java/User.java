@@ -30,20 +30,4 @@ public class User {
         return numberOfChat;
     }
 
-    private String delayedMessage=null;
-
-    public void setDMessage(String s){
-        if (delayedMessage==null)
-            this.delayedMessage=s;
-        else
-            this.delayedMessage=this.delayedMessage+"\n"+s;
-    }
-
-    public String getDMessage(){
-        return this.delayedMessage;
-    }
-
-    public void devalueDMessage(){
-        this.delayedMessage=null;
-    }
 }
