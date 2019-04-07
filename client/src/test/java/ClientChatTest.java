@@ -1,3 +1,6 @@
+import org.junit.*;
+import static org.mockito.Mockito.*;
+
 public class ClientChatTest {
 
     @org.junit.Before
@@ -8,11 +11,11 @@ public class ClientChatTest {
     public void tearDown() throws Exception {
     }
 
-    @org.junit.Test
+    @Test
     public void go() {
+        ClientChat tester=mock(ClientChat.class);
+        //assert();
     }
 
-    @org.junit.Test
-    public void main() {
-    }
+
 }
