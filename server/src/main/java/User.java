@@ -5,7 +5,7 @@ public class User {
     private String name;
     private PrintWriter oWriter;
     private Integer numberOfChat;
-    private String dMessage;
+    private String dMessage=null;
 
     public void setName(String name) {
         this.name = name;
@@ -40,5 +40,8 @@ public class User {
         if (this.dMessage==null)
         this.dMessage = dMessage;
         else {this.dMessage=this.dMessage+"\n"+dMessage;}
+    }
+    public void devalueDMessage(){
+        this.dMessage=null;
     }
 }

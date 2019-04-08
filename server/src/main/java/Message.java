@@ -7,12 +7,12 @@ public class Message implements ICommand {
     public synchronized User execute(User user, String outputMessage) {
         outputMessage = outputMessage.substring(outputMessage.indexOf(" ") + 1);
         User[] chat = Server.chats.get(user.getNumberOfChat());
-        if (chat[1]==null) {user.setdMessage(outputMessage);}
-        else {
+        if (chat[1] == null) {
+            chat[0].setdMessage(outputMessage);
+        } else {
             if (chat[0].getdMessage()!=null){
-            outputMessage=outputMessage+"\n"+chat[0].getName()+": "+chat[0].getdMessage();
-            user.setdMessage(null);}
-
+                outputMessage=outputMessage+"\n"+chat[0].getName()+": "+chat[0].getdMessage();
+chat[0].devalueDMessage();}
             for (User member : chat) {
                 try {
                     member.getoWriter().println(user.getName() + ": " + outputMessage);
@@ -24,8 +24,6 @@ public class Message implements ICommand {
                 }
             }
         }
-
-
-        return user;
-    }
+            return user;
+        }
 }
