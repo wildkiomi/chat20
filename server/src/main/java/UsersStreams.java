@@ -44,7 +44,7 @@ public class UsersStreams implements Runnable{
 
         public synchronized void connecting() {
             boolean connection = false;
-            if (user instanceof Client){
+            if (user.getType().equals("client")){
                 for (int i = 0; i < Server.chats.size(); i++) {
                     if ((Server.chats.get(i)[1] != null) && (Server.chats.get(i)[0]==null)&&(user.getNumberOfChat() != Server.chats.get(i)[1].getNumberOfChat())) {
                         user.setNumberOfChat(Server.chats.get(i)[1].getNumberOfChat());

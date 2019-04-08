@@ -6,6 +6,7 @@ public class User {
     private PrintWriter oWriter;
     private Integer numberOfChat;
     private String dMessage=null;
+    private String type;
 
     public void setName(String name) {
         this.name = name;
@@ -43,5 +44,13 @@ public class User {
     }
     public void devalueDMessage(){
         this.dMessage=null;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }

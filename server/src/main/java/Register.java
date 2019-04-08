@@ -7,11 +7,12 @@ public class Register implements ICommand{
     public User execute(User user, String message) {
         String type=message.substring(message.indexOf(" ")+1,message.lastIndexOf(" "));
         String name=message.substring(message.lastIndexOf(" ")+1);
+        user=new User();
         if (type.contains("client")) {
-            user = new Client ();
+            user.setType("client");
         }
         if (type.contains("agent")) {
-            user = new Agent();
+            user.setType("agent");
             Server.freeAgents.add(user);
         }
         user.setName(name);

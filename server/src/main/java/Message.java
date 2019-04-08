@@ -12,12 +12,13 @@ public class Message implements ICommand {
         } else {
             if (chat[0].getdMessage()!=null){
                 outputMessage=outputMessage+"\n"+chat[0].getName()+": "+chat[0].getdMessage();
-chat[0].devalueDMessage();}
+                chat[0].devalueDMessage();}
             for (User member : chat) {
                 try {
-                    member.getoWriter().println(user.getName() + ": " + outputMessage);
-                    member.getoWriter().flush();
-                    log.info("сообщение от " + user.getName() + " к " + member.getName());
+                    if ((member==user)&&(!outputMessage.contains("connect"))&&(!outputMessage.contains("disconnect"))){continue;}
+                        member.getoWriter().println(user.getName() + ": " + outputMessage);
+                        member.getoWriter().flush();
+                        log.info("сообщение от " + user.getName() + " к " + member.getName());
 
                 } catch (Exception e) {
                     log.error("не отправляются сообщения собеседнику");

@@ -7,12 +7,12 @@ public class Leave implements ICommand{
     public User execute(User user, String s) {
 
         new Message().execute(user,"disconnect");
-        if (user instanceof Agent) {
+        if (user.getType().equals("agent")) {
             Server.freeAgents.add(user);
             User[] newChat = {Server.chats.get(user.getNumberOfChat())[0], null};
             Server.chats.set(user.getNumberOfChat(), newChat);
         }
-        if (user instanceof Client) {
+        if (user.getType().equals("client")) {
             User[] newChat = {null,Server.chats.get(user.getNumberOfChat())[1]};
             Server.chats.set(user.getNumberOfChat(), newChat);
         }
