@@ -8,9 +8,9 @@ public class Exit implements ICommand{
 
     public User execute(User user, String s) {
             try {
+                new Message().execute(user,"exit");
                 Server.clientSocket.close();
                 log.info("client socket closed");
-                new Message().execute(user,"exit");
                 System.exit(0);
             } catch (IOException e) {
                 log.error("can't close client socket");
